@@ -4,7 +4,7 @@
 ### Reset challenge database
 If you make a mistake while editing the `blog` database in this challenge or just want to reset the database back to its original state, return to this page and click the “Reset Challenge Database” button below.
 
-{Reset Challenge Database}(node .guides/sqltests/fw-sql-reset-blog.js)
+{Reset Challenge Database}(node --no-warnings .guides/sqltests/fw-sql-reset-blog.js)
 |||
 ---
 

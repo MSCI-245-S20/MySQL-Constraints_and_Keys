@@ -4,7 +4,7 @@
 ### Reset challenge database
 If you make a mistake while editing the `college` database in this challenge or just want to reset the database back to its original state, click the “Reset Challenge Database” button below.
 
-{Reset Challenge Database}(node .guides/sqltests/fw-sql-reset-college-1-1.js)
+{Reset Challenge Database}(node --no-warnings .guides/sqltests/fw-sql-reset-college-1-1.js)
 |||
 ---
 

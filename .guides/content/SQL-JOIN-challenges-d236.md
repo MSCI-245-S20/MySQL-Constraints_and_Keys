@@ -8,6 +8,6 @@ For the following set of challenges you are going to work with the `college` dat
 
 In case you missed the previous `college` database challenges, reset the database back to its current state by clicking the “Reset Challenge Database” button below.
 
-{Reset Challenges Database}(node .guides/sqltests/fw-sql-reset-college-2.js)
+{Reset Challenges Database}(node --no-warnings .guides/sqltests/fw-sql-reset-college-2.js)
 |||
 ---
