@@ -13,4 +13,4 @@ Also, we covered main SQL **data definition** statements such as:
 - `DROP TABLE`
 - `DROP DATABASE`
 
-From the previoust list, the `CREATE TABLE` statement, needs to be defined with SQL data types and SQL constraints.
+From the previous list, the `CREATE TABLE` statement, needs to be defined with SQL data types and SQL constraints.
