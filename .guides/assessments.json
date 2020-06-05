@@ -44,7 +44,7 @@
    },
    "name": "A simple blog database",
    "instructions": "A `sql-5-7.sql` file has been opened for you. \n\nIn the `sql-5-7.sql` file:\n\n1. Use the `blog` database\n1. Write a SQL `RIGHT OUTER JOIN` statement that _joins_ the `user_id` column from the `blog.posts` table, the `name` column of the `blog.users` table and the `body` column of the `blog.posts` table together.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
-   "command": "node .guides/sqltests/sql-5-8.js",
+   "command": "node --no-warnings .guides/sqltests/sql-5-8.js",
    "points": 1
   }
  },
