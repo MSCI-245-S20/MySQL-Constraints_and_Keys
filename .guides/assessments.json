@@ -36,16 +36,36 @@
   "type": "test",
   "taskId": "test-1197709870",
   "source": {
-   "showName": true,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "A simple blog database",
-   "instructions": "A `sql-5-7.sql` file has been opened for you. \n\nIn the `sql-5-7.sql` file:\n\n1. Use the `blog` database\n1. Write a SQL `RIGHT OUTER JOIN` statement that _joins_ the `user_id` column from the `blog.posts` table, the `name` column of the `blog.users` table and the `body` column of the `blog.posts` table together.\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
+   "showName": true,
+   "instructions": "A `sql-5-7.sql` file has been opened for you.\n\nNot all blog users have written a blog post.  For this challenge, you want to write a query, using a right outer join, that shows **all** users' names, as well as their matching blog posts' tuples' user_id and body.\n\nIn the `sql-5-7.sql` file:\n\n1. Use the `blog` database\n1. Write a SQL `RIGHT OUTER JOIN` statement that _joins_ the `user_id` column from the `blog.posts` table, the `name` column of the `blog.users` table and the `body` column of the `blog.posts` table together.  When done correctly, you results will look like:\n```\n+---------+---------------------+------------------------------+\n| user_id | name                | body                         |\n+---------+---------------------+------------------------------+\n|       1 | Fleming, Ian        | My name is Bond...           |\n|       2 | Doyle, Arthur Conan | It is my business to know... |\n|       3 | Rowling, Joanne     | Where your treasure is...    |\n|    NULL | Cavendish, Timothy  | NULL                         |\n+---------+---------------------+------------------------------+\n```\n\n---\nOnce you have completed these tasks press the _Check It!_ button to have your solution assessed.",
    "command": "node --no-warnings .guides/sqltests/sql-5-8.js",
-   "points": 1
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "sql-5-7.sql"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "sql-5-7.sql"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
   }
  },
  {
